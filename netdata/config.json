@@ -1,14 +1,14 @@
 {
     "name": "netdata",
-    "version": "0.1",
+    "version": "dev",
     "slug": "netdata",
     "description": "netdata",
     "arch": [
-    "armhf",
-    "armv7",
-    "aarch64",
-    "amd64",
-    "i386"
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
     ],
     "startup": "system",
     "boot": "auto",
@@ -18,15 +18,15 @@
     "host_network": true,
     "docker_api": true,
     "ports": {
-    "19999/tcp": 19999
+      "19999/tcp": 19999
     },
     "image": "netdata/netdata",
     "options": {
-    "server": "netdata.local",
-    "hostname": "homeassistant"
+        "server": "netdata.local",
+        "hostname": "homeassistant"
     },
     "schema": {
-    "server": "str",
-    "hostname": "str"
+        "server": "str",
+        "hostname": "str"
     }
-    }
+}
