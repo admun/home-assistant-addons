@@ -20,7 +20,7 @@
     "ports": {
     "19999/tcp": 19999
     },
-    "image": "netdata/netdata:latest",
+    "image": "netdata/netdata",
     "options": {
     "server": "netdata.local",
     "hostname": "homeassistant"
