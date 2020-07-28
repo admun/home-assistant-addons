@@ -1,6 +1,5 @@
 {
     "name": "netdata",
-    "version": "latest",
     "slug": "netdata",
     "description": "netdata",
     "arch": [
